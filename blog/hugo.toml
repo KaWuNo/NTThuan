@@ -1,4 +1,23 @@
-baseURL = ''
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = 'hugo-xmin'
+baseURL = ""
+languageCode = "en-us"
+title = "My Blog"
+theme = "anatole"
+
+[menu]
+  [[menu.main]]
+    identifier = "Home"
+    name = "Home"
+    url = "/Home/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "Blog"
+    name = "Blog"
+    url = "/Blog/"
+    weight = 20
+
+  [[menu.main]]
+    identifier = "Profile"
+    name = "Profile"
+    url = "/Profile/"
+    weight = 30
