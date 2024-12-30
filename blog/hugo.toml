@@ -1,23 +1,31 @@
 baseURL = ""
 languageCode = "en-us"
-title = "My Blog"
-theme = "anatole"
+DefaultContentLanguage = "en"
+title = "Blog của NTT"
+theme = "hugo-paper"
+
+[params]
+  color = 'linen'
+  github = 'Kawuno'
+  avatar = 'nguyenthuan3399@gmail.com'
+  name = 'Thuận'
+  bio = 'Học cùng nhau, giàu cùng nhau.'
+
+  linkFullImages = true
+  ShowBreadCrumbs = true
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
 
 [menu]
   [[menu.main]]
-    identifier = "Home"
-    name = "Home"
-    url = "/Home/"
-    weight = 10
-
-  [[menu.main]]
     identifier = "Blog"
     name = "Blog"
-    url = "/Blog/"
-    weight = 20
+    url = "/posts/"
+    weight = 200
 
   [[menu.main]]
-    identifier = "Profile"
-    name = "Profile"
-    url = "/Profile/"
-    weight = 30
+    identifier = "About"
+    name = "About"
+    url = "/about"
+    weight = 300
