@@ -6,7 +6,7 @@ title: 'About'
 
 ## Giới Thiệu
 
-![Ảnh đại diện của tôi](/images/myprofile.jpg)
+![Ảnh đại diện của tôi](/images/AnhDaiDien.png)
 
 **Họ Tên**: Nguyễn Tấn Thuận  
 **Ngành**: Công Nghệ Thông Tin  
